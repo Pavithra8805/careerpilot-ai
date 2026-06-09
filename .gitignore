@@ -3,3 +3,9 @@ node_modules/
 .DS_Store
 /web/node_modules/
 /api/node_modules/
+
+# Next.js build artifacts
+/web/.next/
+/.next/
+/web/.next/cache/
+/web/.next/static/
