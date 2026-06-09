@@ -1,23 +1,7 @@
-const fs = require('fs');
-const path = require('path');
+const { createJsonDb } = require('./json_db_helper');
 
-const DB_PATH = path.join(__dirname, 'users.json');
-
-function ensureDb() {
-  if (!fs.existsSync(DB_PATH)) {
-    fs.writeFileSync(DB_PATH, JSON.stringify({ users: [] }, null, 2));
-  }
-}
-
-function readDb() {
-  ensureDb();
-  const raw = fs.readFileSync(DB_PATH, 'utf8');
-  return JSON.parse(raw);
-}
-
-function writeDb(data) {
-  fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
-}
+const { readDb, writeDb, ensureDb } = createJsonDb('users.json');
+ensureDb({ users: [] });
 
 function getUsers() {
   const db = readDb();
@@ -46,4 +30,4 @@ function updateUser(id, updates) {
   return db.users[idx];
 }
 
-module.exports = { getUsers, getUserByEmail, addUser };
+module.exports = { getUsers, getUserByEmail, addUser, updateUser };
