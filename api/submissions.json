@@ -1,0 +1,53 @@
+{
+  "submissions": [
+    {
+      "id": "1780895900468",
+      "name": "Test",
+      "email": "test@example.com",
+      "message": "Hello",
+      "createdAt": "2026-06-08T05:18:20.468Z"
+    },
+    {
+      "id": "1780897312978",
+      "name": "pavithra",
+      "email": "pavithra8805@gmail.com",
+      "message": "hi",
+      "createdAt": "2026-06-08T05:41:52.978Z"
+    },
+    {
+      "id": "1780899607561",
+      "name": "Pavithra",
+      "email": "pavithra8805@gmail.com",
+      "message": "Hi",
+      "createdAt": "2026-06-08T06:20:07.561Z"
+    },
+    {
+      "id": "1780901300902",
+      "name": "Pavi",
+      "email": "pavithra8805@gmail.com",
+      "message": "Hi",
+      "createdAt": "2026-06-08T06:48:20.902Z"
+    },
+    {
+      "id": "1780901381497",
+      "name": "Test User",
+      "email": "tester@example.com",
+      "message": "Hello from UI test",
+      "createdAt": "2026-06-08T06:49:41.497Z"
+    },
+    {
+      "id": "1780979304492",
+      "name": "Pavi",
+      "email": "pavithra8805@gmail.com",
+      "message": "Hi",
+      "createdAt": "2026-06-09T04:28:24.492Z"
+    },
+    {
+      "id": "1780980233046",
+      "name": "Pavi",
+      "email": "pavithra8805@gmail.com",
+      "message": "hi",
+      "createdAt": "2026-06-09T04:43:53.046Z"
+    }
+  ]
+}

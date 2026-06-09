@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "id": "1780979688144",
+      "name": "Pavi",
+      "email": "saipavithra.g@kalvium.community",
+      "password": "$2a$10$VXL3XMJEA.mIBd2u6RsE8u8ZFRqXocaIPnA5FNYuKk0jDCubInAxO"
+    },
+    {
+      "id": "1780980207059",
+      "name": "Sai Pavithra",
+      "email": "gunapriya77776@gmail.com",
+      "password": "$2a$10$KWimKLApi5CA.WVtQlgQ/OP/e2tDEvELr9kzg7Neucrzq9Ui1Beju"
+    }
+  ]
+}
